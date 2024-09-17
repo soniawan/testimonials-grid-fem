@@ -1,0 +1,28 @@
+@import url("https://fonts.googleapis.com/css2?family=Barlow+Semi+Condensed:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+
+/* Reset */
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+html,
+body,
+h3,
+h4,
+p {
+  margin: 0;
+  padding: 0;
+}
+
+/* Variables */
+:root {
+  --color-primary-moderate-violet: hsl(263, 55%, 52%);
+  --color-primary-very-dark-grayish-blue: hsl(217, 19%, 35%);
+  --color-primary-very-dark-blackish-blue: hsl(219, 29%, 14%);
+  --color-primary-white: hsl(0, 0%, 100%);
+  --color-neutral-gray: hsl(0, 0%, 81%);
+  --color-neutral-grayish-blue: hsl(210, 46%, 95%);
+  font-size: 13px;
+}
