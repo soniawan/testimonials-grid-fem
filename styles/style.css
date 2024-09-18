@@ -70,6 +70,16 @@ h4 {
   padding: 30px;
   border-radius: 10px;
   box-shadow: 3px 3px 8px var(--color-neutral-gray);
+  position: relative;
+}
+
+.testimonial-icon {
+  height: 105px;
+  color: var(--color-neutral-grayish-blue);
+  position: absolute;
+  top: 0;
+  right: 75px;
+  z-index: -10;
 }
 
 .testimonial-profile {
@@ -84,11 +94,12 @@ h4 {
 }
 
 .testimonial-highlight {
-  margin: 20px 0;
+  margin: 15px 0;
 }
 
 /* Grid area */
 .testimonial.top-left {
+  z-index: 1;
   grid-area: top-left;
   background-color: var(--color-primary-moderate-violet);
   color: var(--color-neutral-grayish-blue);
